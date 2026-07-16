@@ -2,11 +2,11 @@
 
 ## Current Focus
 
-Designing and implementing the backend-first Keystone Strategy newsletter intelligence platform, beginning with product and engineering review of the RAG ingestion, retrieval, news acquisition, and connector architecture.
+Implementing the backend-first Keystone Strategy newsletter intelligence platform, currently focused on canonical ingestion schemas, immutable artifact storage, and replay-safe ingestion APIs.
 
 ## Status
 
-The newsletter backend brief is confirmed. Repository coordination has been checked, and the requested product-strategy and engineering-review workflows are underway before implementation.
+Product-strategy and engineering reviews are complete. A backend-capable project scaffold is active. The control-plane schema, deterministic identifiers, exact SHA-256 artifact-key storage, URL ingestion API, binary artifact endpoint, durable processing-job foundation, and tenant-isolation tests are implemented. The additive migration was reviewed and applied, TypeScript passes, and all current unit tests pass.
 
 ## Blockers
 
@@ -18,12 +18,12 @@ Other contributors should add their own `{username}_progress.md` files and flag 
 
 ## Next Steps
 
-Complete product and engineering plan reviews; select the deployment and data architecture; implement the backend ingestion, retrieval, news, connector, and API foundations; then validate and publish the work with this progress record.
+Implement format-specific parsers and deterministic chunking next, followed by embeddings, pgvector/lexical projections, hybrid retrieval, RSS/news connectors, scheduled polling, dossier quality gates, drafting, observability, and broader integration tests.
 
 <!-- heartbeat-managed:start -->
 ## Repository Heartbeat
 
-- Last heartbeat: 2026-07-16T15:07:09Z
+- Last heartbeat: 2026-07-16T15:27:12Z
 - Progress files observed: 1
 - Other contributors checked: 0
 - Coordination digest: [`coordination/status.md`](coordination/status.md)
