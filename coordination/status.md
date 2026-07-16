@@ -2,13 +2,13 @@
 
 > Generated automatically from every root-level `*_progress.md` file. Contributors should edit their own progress file, not this digest.
 
-**Last generated:** 2026-07-16T15:07:09Z
+**Last generated:** 2026-07-16T16:09:45Z
 
 **Progress files checked:** 1
 
 | Contributor | Current focus | Blockers | Needs from others |
 |---|---|---|---|
-| `tpeters-keystone` | Designing and implementing the backend-first Keystone Strategy newsletter intelligence platform, beginning with product and engineering review of the RAG ingestion, retrieval, news acquisition, and connector architecture. | None. | Other contributors should add their own `{username}_progress.md` files and flag any overlapping work on ingestion, retrieval, connectors, scraping, or newsletter generation. |
+| `tpeters-keystone` | Implementing the backend-first Keystone Strategy newsletter intelligence platform, currently focused on canonical ingestion schemas, immutable artifact storage, and replay-safe ingestion APIs. | None. | Other contributors should add their own `{username}_progress.md` files and flag any overlapping work on ingestion, retrieval, connectors, scraping, or newsletter generation. |
 
 # Contributor Details
 
@@ -16,9 +16,9 @@
 
 **Source:** [`tpeters-keystone_progress.md`](../tpeters-keystone_progress.md)
 
-**Current focus:** Designing and implementing the backend-first Keystone Strategy newsletter intelligence platform, beginning with product and engineering review of the RAG ingestion, retrieval, news acquisition, and connector architecture.
+**Current focus:** Implementing the backend-first Keystone Strategy newsletter intelligence platform, currently focused on canonical ingestion schemas, immutable artifact storage, and replay-safe ingestion APIs.
 
-**Status:** The newsletter backend brief is confirmed. Repository coordination has been checked, and the requested product-strategy and engineering-review workflows are underway before implementation.
+**Status:** Product-strategy and engineering reviews are complete. A backend-capable project scaffold is active. The control-plane schema, deterministic identifiers, exact SHA-256 artifact-key storage, URL ingestion API, binary artifact endpoint, dura…
 
 **Blockers:** None.
 
