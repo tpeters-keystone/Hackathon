@@ -23,7 +23,7 @@ Implement format-specific parsers and deterministic chunking next, followed by e
 <!-- heartbeat-managed:start -->
 ## Repository Heartbeat
 
-- Last heartbeat: 2026-07-25T18:40:35Z
+- Last heartbeat: 2026-07-25T19:58:28Z
 - Progress files observed: 1
 - Other contributors checked: 0
 - Coordination digest: [`coordination/status.md`](coordination/status.md)
